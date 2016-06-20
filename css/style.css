@@ -1,0 +1,603 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul, li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+figure{
+	margin: 0;
+}
+
+.index-header{
+	max-width: 1200px;
+	margin: auto;
+	padding: 50px;
+}
+
+.index-logo{
+	float: left;
+}
+
+.index-logo figcaption{
+	display: none;
+}
+
+.index-nav{
+	float: right;
+}
+
+.index-nav li{
+	display: inline-block;
+}
+
+.index-nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding-left: 50px;
+}
+
+#home{
+	color: black;
+}
+
+#contact{
+	color: grey;
+}
+
+.cleaner{
+	clear: both;
+}
+
+#index-banner{
+	background: url(../images/indexbanner-bg3.jpg) center top no-repeat;
+	background-size: cover;
+	padding-top: 150px;
+}
+
+#contact-banner{
+	background: url(../images/indexbanner-bg2.jpg) center top no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+}
+
+.container{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.titulo-banner{
+	font-size: 50px;
+	color: #fff;
+}
+
+.texto-banner{
+	color: grey;
+	font-size: 18px;
+	line-height: 30px;
+	padding-bottom: 50px;
+}
+
+.registro{
+	background-color: #06B4F2;
+	position: relative;
+	top: 30px;
+}
+
+.registro input{
+	width: 83%;
+	height: 60px;
+	font-size: 16px;
+	padding-left: 15px;
+	font-family: inherit;
+}
+
+.registro button{
+	border: none;
+	background-color: #06B4F2;
+	width: 16%;
+	height: 60px;
+	color: #fff;
+	font-family: inherit;
+	font-size: 16px;
+}
+
+.producto{
+	width: 25%;
+	text-align: center;
+	float: left;
+	margin-top: 150px;
+	padding: 0 15px;
+}
+
+.producto h4{
+	text-transform: uppercase;
+}
+
+.servicios-titulo{
+	text-align: center;
+	margin-top: 100px;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.servicios-titulo + p{
+	text-align: center;
+	margin: 0 0 60px;
+	font-size: 16px;
+}
+
+.servicios-izquierda{
+	width: 33.3%;
+	float: left;
+}
+
+.servicios-izquierda li{
+	position: relative;
+	text-align: right;
+	padding-right: 60px;
+	margin-bottom: 40px;
+}
+
+.servicios-izquierda img{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.servicios-derecha{
+	width: 33.3%;
+	float: left;
+}
+
+.servicios-derecha li{
+	position: relative;
+	padding-left: 60px;
+	text-align: left;
+	padding-left: 60px;
+	margin-bottom: 40px;
+}
+.servicios-derecha img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.servicios-celular{
+	width: 33.3%;
+	text-align: center;
+	float: left;
+	padding: 0 15px;
+}
+
+.servicios-izquierda h3{
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.servicios-izquierda p{
+	padding-top: 20px;
+	line-height: 25px;
+	font-size: 16px;
+}
+
+.servicios-derecha h3{
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.servicios-derecha p{
+	padding-top: 20px;
+	line-height: 25px;
+	font-size: 16px;
+}
+
+.precios{
+	background: url(../images/pricing-bg.jpg) center top no-repeat;
+	background-size: contain;
+	margin-top: -100px;
+}
+
+.precios h3{
+	text-align: center;
+	margin: 0;
+	padding: 50px 0 0;
+	font-size: 40px;
+}
+
+.precios h3 + p{
+	text-align: center;
+}
+
+.precios-tabla{
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	width: 22.5%;
+	padding: 30px;
+	float: left;
+	margin-top: 60px;
+	margin-right: 3.3%;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.precios-tabla h4{
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+.precios-tabla h2{
+	font-size: 50px;
+	margin: 0;
+}
+
+.precios-tabla h2 sup{
+	font-size: 20px;
+	position: relative;
+	top: 5px;
+}
+
+.precios-tabla p{
+	margin: 0 0 30px;
+}
+
+.precios-tabla table{
+	width: 100%;
+}
+
+.precios-tabla td{
+	padding: 5px;
+}
+
+.precios-tabla a{
+	display: block;
+	margin-top: 10px;
+	padding: 10px;
+	border: solid 1px none;
+	border-radius: 5px;
+	background-color: #06B4F2;
+	color: white;
+	font-family: inherit;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.precios-tabla:last-of-type{
+	margin-right: 0;
+}
+
+.index-footer{
+	background-color: #233042;
+	margin-top: 80px;
+}
+
+.index-footer h3{
+	text-align: center;
+	font-size: 2em;
+	color: #fff;
+	margin: 0;
+	padding: 60px 0;
+	font-weight: 400;
+}
+
+.index-footer h3 span{
+	color: #26ABF6;
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.footer-fondo{
+	background-color: #151D27;
+	padding: 30px 0;
+}
+
+.copyright{
+	float: left;
+	margin: 10px 0 0;
+	color: #fff;
+	font-weight: 100;
+}
+
+.footer-nav{
+	float: right;
+	margin-top: 10px;
+}
+
+.footer-nav li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.footer-nav a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 100;
+}
+
+.formulario-izquierda{
+	width: 50%;
+	float: left;
+}
+
+.formulario-izquierda input{
+	position: relative;
+	text-align: left;
+}
+
+.formulario-derecha{
+	width: 50%;
+	float: left;
+}
+
+.formualrio-derecha input{
+	position: relative;
+	text-align: left;
+}
+
+.contacto-registro input{
+	font-size: 16px;
+	font-family: inherit;
+	border: solid 1px grey;
+	border-radius: 5px;
+	width: 95%;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+#mensaje{
+	padding: 15px 0 178px 20px;
+}
+
+.contacto-registro button{
+	border: none;
+	background-color: #06B4F2;
+	color: #fff;
+	font-family: inherit;
+	font-size: 12px;
+	border-radius: 5px;
+	font-weight: bold;
+	padding: 18px 60px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: relative;
+	display: block;/* PARA CENTRAR ALGO SIEMPRE HAY QUE CONVERTIRLO EN BLOQUE Y LUEGO DARLE UN MARGIN 0 AUTO */
+	margin:0 auto; 
+}
+
+.precios-tabla table{
+	border-top: solid 1px black;
+}
+
+.precios-tabla table{padding-top: 20px;}
+
+@media (max-width: 800px){
+	.index-nav{
+		width: 70%;
+		padding-top: 20px;
+	}
+	.producto {
+		width: 50%;
+		margin-top: 80px;
+	}
+
+	.servicios-izquierda, .servicios-celular, .servicios-derecha {
+		float: none;
+		width: 100%;
+	}
+
+	.precios {
+		margin-top: 0;
+	}
+
+	.precios-tabla {
+		width: 48%;
+		margin-right: 4%;
+	}
+
+	.precios-tabla:nth-of-type(even){
+		margin-right: 0;
+	}
+
+	.precios-tabla h4 {
+		font-size: 15px;
+	}
+
+	.precios-tabla table {
+		font-size: 12px;
+	}
+
+	.copyright{
+		float: none;
+		text-align: center;
+	}
+
+	.footer-nav{
+		padding-right: 42%;
+		padding-top: 20px;
+	}
+}
+
+@media (max-width: 600px){
+	.formulario-izquierda{
+	width: 100%;
+	}
+
+	.formulario-izquierda input{width:100%;}
+
+	.formulario-derecha{
+	width: 100%;
+	}
+
+	.formulario-derecha input{width:100%;}
+
+	.contacto-registro button{
+	border: none;
+	background-color: #06B4F2;
+	width: 50%;
+	height: 60px;
+	color: #fff;
+	font-family: inherit;
+	font-size: 16px;
+	}
+
+	#contact-banner{
+		display:none;
+	}
+	#index-banner{
+		background: none;
+	}
+
+	#index-banner h2{
+		display: none;
+	}
+
+	#index-banner p{
+		display: none;
+	}
+
+	#contact-banner{
+		background: none;
+		height: 1px;
+	}
+
+	.titulo-banner{
+		display: none;
+	}
+
+	.texto-banner{
+		display: none;
+	}
+
+	.registro{
+		top: -50px;
+		margin: 0 5% 0 5%;
+	}
+
+	.registro button{
+		font-size: 12px;
+		height: 20px;
+	}
+
+	#home{
+		float: none;
+		position: absolute;
+		right: 43%;
+		top: 90px;
+	}
+
+	#contact{
+		float: none;
+		position: absolute;
+		right: 41%;
+		top: 110px;
+	}
+
+	.index-logo img{
+		float: none;
+		position: absolute;
+		right: 37%;
+	}
+
+	.servicios-izquierda li{
+		position: relative;
+		padding-left: 60px;
+		text-align: left;
+		padding-left: 60px;
+		margin-bottom: 40px;
+	}
+	.servicios-izquierda img{
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+}
+
+@media (max-width: 450px){
+	.registro button i{
+		display: none;
+	}
+
+	#home{
+		right: 50%;
+		top: 110px;
+	}
+
+	#contact{
+		float: none;
+		position: absolute;
+		right: 45%;
+		top: 140px;
+	}
+
+	.index-logo img{
+		float: none;
+		position: absolute;
+		right: 37%;
+	}
+
+	.index-nav ul li{
+		text-align: center;
+		padding-right: 38%;
+	}
+
+	.registro{
+		width: 90%
+	}
+
+	.registro input{
+		font-size: 10px;
+		width: 75%;
+	}
+
+	.registro button{
+		font-size: 11px;
+		padding: 0 0 0 10px;
+	}
+
+	.producto{
+		float: none;
+		margin: 0 10% 0 23%;
+	}
+
+	.precios-tabla {
+		width: 46%;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+
+	.precios-tabla a{
+		font-size: 8px;
+	}
+
+	.index-footer h3{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.index-footer h3{
+		font-size: 1em;
+	}
+}
